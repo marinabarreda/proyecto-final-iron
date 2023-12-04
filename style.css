@@ -1,0 +1,160 @@
+body{
+    background-color:#f9d5e5 ;
+    color: #c83349;
+    margin:0;
+    font-family:"PixelFont", sans-serif ;
+}
+main{
+    max-width: 1000px;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+/*son los rectangulos que recuadran el texto y las cartas*/
+.seccion1,
+.seccion2{
+    background-color: #e1c2f8;
+    background-size: cover;
+    border: 5px solid blue;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+}
+/*recuadros cartas*/
+button{
+    background:rgba(139, 58, 252, 0.7);
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+
+}
+/* esto es para que salga el sombreado cuando se pincha*/
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(30, 253, 249, 0.7 );
+    transform: scale(1.1);
+}
+.estadisticas{
+    border: 3px solid white;
+    height: 105px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+img{
+    width: 80%;
+
+}
+/*para ponerlo bien en tood tipo de pantalllas*/
+@media screen and (max-width: 850px) {
+    main{
+        grid-template-columns:  1fr;
+    }
+    
+}
+
+
+
+
+
+.centrar-pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: <img src="./fondo.jpg">
+    background-size: cover;
+}
+
+.contenedor {
+    background-color: rgba(225, 194, 248, 0.8); /* Añade un fondo semitransparente para que el texto sea legible */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #96ceb4;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+a:hover {
+    background: #6abf99;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://media.istockphoto.com/id/1332455278/es/foto/sonrientes-osos-de-peluche-blancos-marrones-claros-y-marrones-oscuros-sentados-en-la-mesa-en.jpg?s=612x612&w=0&k=20&c=rRK4JxfL-RA7tPGEZ-4h-nnqRnRpQatMMUzxx7Ri8Oo=') center center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-recuadrado {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contenedor {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contenedor img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
